@@ -18,25 +18,25 @@
   
 - Nesta ataque resolvi utilizar o servidor apache para subir o web template, dessa maneira mesmo se pressionar Ctrl + C para sair, o ataque continua rodando.
   
-![Alt text](./SetUp.png)
+![Alt text](./Pics/SetUp.png)
 
 ## Visão da vítima
   
   - Eu decidir usar uma das VM's criada no inicio do curso para usar como vítima. ```WINDOWNS 7```.
   
-  ![ALT TEXT](./Vitima.png)
+  ![ALT TEXT](./Pics/Vitima.png)
 
   - Ao inserir o IP do atacante a Vítima foi redirecionada para o site abaixo.
 
-  ![ALT TEXT](./WebTemp2.png)
+  ![ALT TEXT](./Pics/WebTemp2.png)
 
   - A vitima preencher com as informações para realizar o log-in.
 
-  ![ALT TEXT](./WebTemp1.png)
+  ![ALT TEXT](./Pics/WebTemp1.png)
   
 
 ## Resutados
 
 - Ao final, na tela do atacante é apresentado o Email e senha inseridos pela vítima.
 
-![Alt text](./passwd.png "Optional title")
+![Alt text](./Pics/passwd.png)

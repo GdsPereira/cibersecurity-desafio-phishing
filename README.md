@@ -1,9 +1,9 @@
-# Phishing para captura de senhas do Facebook
+# Phishing para captura de senhas do Google
 
 ### Ferramentas
 
 - Kali Linux
-- setoolkit
+- Setoolkit
 
 ### Configurando o Phishing no Kali Linux
 
@@ -15,11 +15,28 @@
 - Método de ataque: ``` Web Templates ```
 - IP para Rebecer informação: ```[192.168.15.123]```
 - Template Selecionado: ``` Google ```
-- Nesta ataque resolvi utilizar o servidor apache para subir o web template.
+  
+- Nesta ataque resolvi utilizar o servidor apache para subir o web template, dessa maneira mesmo se pressionar Ctrl + C para sair, o ataque continua rodando.
+  
+![Alt text](./SetUp.png)
 
-- 
-- 
+## Visão da vítima
+  
+  - Eu decidir usar uma das VM's criada no inicio do curso para usar como vítima. ```WINDOWNS 7```.
+  
+  ![ALT TEXT](./Vitima.png)
 
-### Resutados
+  - Ao inserir o IP do atacante a Vítima foi redirecionada para o site abaixo.
+
+  ![ALT TEXT](./WebTemp2.png)
+
+  - A vitima preencher com as informações para realizar o log-in.
+
+  ![ALT TEXT](./WebTemp1.png)
+  
+
+## Resutados
+
+- Ao final, na tela do atacante é apresentado o Email e senha inseridos pela vítima.
 
 ![Alt text](./passwd.png "Optional title")

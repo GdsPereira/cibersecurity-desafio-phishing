@@ -39,4 +39,4 @@
 
 - Ao final, na tela do atacante é apresentado o Email e senha inseridos pela vítima.
 
-![Alt text](./Pics/passwd.png)
+![Alt text](./Pics/Passwd.png)
